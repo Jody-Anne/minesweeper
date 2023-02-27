@@ -7,10 +7,6 @@ const MINE_SYMBOL = '💣';
 const FLAG_SYMBOL = '🚩';
 const EMPTY_SYMBOL = '⬜';
 
-const MyComponent = () => {
-  return
-}
-
 function Tile({ isMine, isRevealed, isFlagged, adjacentMines, onClick, onContextMenu }) {
   function handleClick(event) {
     event.preventDefault();
